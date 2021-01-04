@@ -4,7 +4,7 @@
 [![Gitter](https://badges.gitter.im/DeepLabCut/community.svg)](https://gitter.im/DeepLabCut/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Twitter Follow](https://img.shields.io/twitter/follow/DeepLabCut.svg?label=DeepLabCut&style=social)](https://twitter.com/DeepLabCut)
 
-# Docker Environment for DeepLabCut2.0+
+# Docker Environment for DeepLabCut2.0+ (using a local DLC install)
 
 This package will allow you to run [DeepLabCut2.x](https://github.com/AlexEMG/DeepLabCut) with everything pre-installed inside a Docker container. This base container is mainly useful for server deployment for training networks and video analysis (i.e. you can move this to your server, University Cluster, AWS, etc) as it assumes you have no display. 
 
