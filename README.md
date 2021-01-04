@@ -16,7 +16,7 @@ Note, please check your NVIDIA driver is up to date.  Please check your driver/C
 
 Here are my tips for setting up your GPU machine (ubuntu 18.04): https://github.com/DeepLabCut/Docker4DeepLabCut2.0/wiki/Installation-of-NVIDIA-driver-and-CUDA-10
 
-## Modifications
+## Local DLC
 
 This fork of the DeepLabCut repo makes a few changes. In particular, it installs a local copy of DeepLabCut, thus allowing for custom forks/branches/versions of DLC to be used, instead of the DLC version in pip repositories. To use this fork, you should copy your own DeepLabCut repo to this directory under ./DeepLabCut. 
 
