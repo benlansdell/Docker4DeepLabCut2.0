@@ -26,6 +26,7 @@ RUN pip3 install ipywidgets
 RUN pip3 install seaborn
 RUN pip3 install imgaug #DLC dep not installed elsewhere
 RUN pip install ray[tune]
+RUN pip install tables
 COPY DeepLabCut/deeplabcut/ /usr/lib/python3.6/deeplabcut/
 ENV DLClight True
 ENV LC_ALL C.UTF-8
