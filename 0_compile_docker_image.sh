@@ -1,2 +1,2 @@
 #!/bin/bash
-docker image build -t dlc_username/dlcdocker .
+docker image build -t dlc_username/dlcdocker:latest .

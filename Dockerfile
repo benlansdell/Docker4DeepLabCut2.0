@@ -28,6 +28,8 @@ RUN pip3 install imgaug #DLC dep not installed elsewhere
 RUN pip install ray[tune]
 RUN pip install tables
 RUN pip install bayesian-optimization
+RUN pip install filterpy
+RUN pip install numba
 COPY DeepLabCut/deeplabcut/ /usr/lib/python3.6/deeplabcut/
 ENV DLClight True
 ENV LC_ALL C.UTF-8
